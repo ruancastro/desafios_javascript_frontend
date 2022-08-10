@@ -1,0 +1,53 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,64,121,1) 42%, rgba(0,212,255,1) 100%);
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;    
+}
+
+.Botao {
+    background-color: black;
+    border-radius: 12px;
+    color: #f9f9f9;
+    margin: 0rem 6rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    
+}
+
+.Botao:active{
+    color: rgba(0,212,255,1)
+}
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.relogio{
+    text-align: center;
+    font-size: 12rem;
+    margin: 1rem;
+}
+
+.titulo{
+    text-align: center;
+    height: 2rem;
+    margin-top: 2rem;
+    font-size: 3rem;
+
+}
+
+
+
