@@ -43,11 +43,80 @@ body{
 
 .titulo{
     text-align: center;
-    height: 2rem;
+    /* height: 2rem; */
     margin-top: 2rem;
     font-size: 3rem;
+}
+
+
+@media screen and (min-width: 340px){
+   
+    .titulo{
+        font-size: 2rem;
+    }
+
+    .relogio{
+        font-size: 3.5rem;
+    }
+
+    
+    .Botao {
+        margin: 0rem 1rem;
+        font-size: 1rem;
+        
+    }
+
+}
+
+@media screen and (min-width: 768px){
+   
+    .titulo{
+        font-size: 3rem;
+    }
+
+    .relogio{
+        font-size: 7rem;
+    }
+
+    
+    .Botao {
+        margin: 0rem 2rem;
+        font-size: 2.5rem;        
+    }
 
 }
 
 
+@media screen and (min-width: 950px){
+    
+    .relogio{
+        font-size: 10rem;
+    }
+
+    
+    .Botao {
+        margin: 0rem 3rem;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 1200px){
+   
+    .titulo{
+        font-size: 3.3rem;
+    }
+
+    .relogio{
+        font-size: 13rem;
+    }
+    
+    .Botao {
+        margin: 2rem 3rem;
+        font-size: 3rem;
+        
+    }
+
+}
 
