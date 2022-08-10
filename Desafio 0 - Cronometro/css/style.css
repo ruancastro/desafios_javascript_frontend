@@ -68,6 +68,40 @@ body{
 
 }
 
+@media screen and (min-width: 490px){
+
+
+    .relogio{
+        font-size: 5rem;
+    }
+
+    
+    .Botao {
+        margin: 0rem 1rem;
+        font-size: 2rem;
+        
+    }
+
+}
+
+@media screen and (min-width: 600px){
+    .titulo{
+        font-size: 2.5rem;
+    }
+
+    .relogio{
+        font-size: 6rem;
+    }
+
+    
+    .Botao {
+        margin: 0rem 1rem;
+        font-size: 2.3rem;
+        
+    }
+
+}
+
 @media screen and (min-width: 768px){
    
     .titulo{
@@ -80,8 +114,12 @@ body{
 
     
     .Botao {
-        margin: 0rem 2rem;
         font-size: 2.5rem;        
+    }
+
+    .principal{
+        height: 80vh;
+
     }
 
 }
