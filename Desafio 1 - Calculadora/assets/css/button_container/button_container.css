@@ -1,3 +1,28 @@
+.button_container--x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/ 2;
+    grid-column: 4/4;
+    text-align: center;
+    font-size: 3rem;
+    width: var(--width_pattern--buttons);
+    height: var(--height_patternb--buttons);
+}
+
+
+.button_container--c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/ 2;
+    grid-column: 1/1;
+    text-align: center;
+    font-size: 3rem;
+    width: var(--width_pattern--buttons);
+    height: var(--height_patternb--buttons);
+}
+
 .button_container--0{
     grid-row: 6/6;
     grid-column: 2/2;
@@ -100,7 +125,8 @@
     height: var(--height_patternb--buttons);
 }
 
-.button_container--plus{
+ /* + */
+.button_container--10{
     grid-row: 6/6;
     grid-column: 1/1;
     display: flex;
@@ -110,7 +136,8 @@
     height: var(--height_patternb--buttons);
 }
 
-.button_container--point{
+/* . */
+.button_container--11{
     grid-row: 6/6;
     grid-column: 3/3;
     display: flex;
@@ -120,17 +147,8 @@
     height: var(--height_patternb--buttons);
 }
 
-.button_container--equal{
-    grid-row: 6/6;
-    grid-column: 4/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: var(--width_pattern--buttons);
-    height: var(--height_patternb--buttons);
-}
-
-.button_container--minus{
+/* - */
+.button_container--12{
     grid-row: 5/5;
     grid-column: 4/4;
     display: flex;
@@ -140,7 +158,19 @@
     height: var(--height_patternb--buttons);
 }
 
-.button_container--mult{
+/* = */
+.button_container--13{
+    grid-row: 6/6;
+    grid-column: 4/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: var(--width_pattern--buttons);
+    height: var(--height_patternb--buttons);
+}
+
+/* x */
+.button_container--14{
     grid-row: 4/4;
     grid-column: 4/4;
     display: flex;
@@ -150,7 +180,8 @@
     height: var(--height_patternb--buttons);
 }
 
-.button_container--div{
+/* ÷ */
+.button_container--15{
     grid-row: 3/3;
     grid-column: 4/4;
     display: flex;

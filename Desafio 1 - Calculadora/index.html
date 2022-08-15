@@ -13,26 +13,28 @@
 </head>
 <body>
     <header class="header"><h1>Calculator using Vanilla Javascript</h1></header>
-    <main class="calculator">
-        <div class="box">
-            <div class="grid">
-                <div class="calculator__monitor">1+1 = 2</div>
-                <div class="button_container--0"><button class="calculator__botoes--1  btn btn-dark">0</button></div>
-                <div class="button_container--1"><button class="calculator__botoes--1  btn btn-dark">1</button></div>
-                <div class="button_container--2"><button class="calculator__botoes--2  btn btn-dark" >2</button></div>
-                <div class="button_container--3"><button class="calculator__botoes--3  btn btn-dark">3</button></div>
-                <div class="button_container--4"><button class="calculator__botoes--4  btn btn-dark">4</button></div>
-                <div class="button_container--5"><button class="calculator__botoes--5  btn btn-dark">5</button></div>
-                <div class="button_container--6"><button class="calculator__botoes--6  btn btn-dark">6</button></div>
-                <div class="button_container--7"><button class="calculator__botoes--7  btn btn-dark">7</button></div>
-                <div class="button_container--8"><button class="calculator__botoes--8  btn btn-dark">8</button></div>
-                <div class="button_container--9"><button class="calculator__botoes--9  btn btn-dark">9</button></div>
-                <div class="button_container--plus"><button class="calculator__botoes--plus  btn btn-primary">+</button></div>
-                <div class="button_container--point"><button class="calculator__botoes--point  btn btn-dark">.</button></div>
-                <div class="button_container--minus"><button class="calculator__botoes--minus  btn btn-primary">-</button></div>
-                <div class="button_container--equal"><button class="calculator__botoes--equal  btn btn-success">=</button></div>
-                <div class="button_container--mult"><button class="calculator__botoes--mult  btn btn-primary">*</button></div>
-                <div class="button_container--div"><button class="calculator__botoes--div  btn btn-primary">÷</button></div>
+    <main class="calculator" >
+        <div class="box" >
+            <div class="grid" >
+                <div class="calculator__monitor"> calcfun :)</div>
+                <div class="button_container--c"><button class="calculator__botoes--c  btn btn-light " value="c" onclick="mapClick(value)" onkeydown=mapKey(event)>C</button></div>
+                <div class="button_container--x"><button class="calculator__botoes--x  btn btn-light " value="x" onclick="mapClick(value)" onkeydown=mapKey(event)>x</button></div>
+                <div class="button_container--0"><button class="calculator__botoes--0  btn btn-dark " value="0" onclick="mapClick(value)" onkeydown=mapKey(event)>0</button></div>
+                <div class="button_container--1"><button class="calculator__botoes--1  btn btn-dark" value="1"  onclick="mapClick(value)" onkeydown=mapKey(event)>1</button></div>
+                <div class="button_container--2"><button class="calculator__botoes--2  btn btn-dark" value="2"  onclick="mapClick(value)" onkeydown=mapKey(event)>2</button></div>
+                <div class="button_container--3"><button class="calculator__botoes--3  btn btn-dark" value="3"  onclick="mapClick(value)" onkeydown=mapKey(event)>3</button></div>
+                <div class="button_container--4"><button class="calculator__botoes--4  btn btn-dark" value="4"  onclick="mapClick(value)" onkeydown=mapKey(event)>4</button></div>
+                <div class="button_container--5"><button class="calculator__botoes--5  btn btn-dark" value="5"  onclick="mapClick(value)" onkeydown=mapKey(event)>5</button></div>
+                <div class="button_container--6"><button class="calculator__botoes--6  btn btn-dark" value="6"  onclick="mapClick(value)" onkeydown=mapKey(event)>6</button></div>
+                <div class="button_container--7"><button class="calculator__botoes--7  btn btn-dark" value="7"  onclick="mapClick(value)" onkeydown=mapKey(event)>7</button></div>
+                <div class="button_container--8"><button class="calculator__botoes--8  btn btn-dark" value="8"  onclick="mapClick(value)" onkeydown=mapKey(event)>8</button></div>
+                <div class="button_container--9"><button class="calculator__botoes--9  btn btn-dark" value="9"  onclick="mapClick(value)" onkeydown=mapKey(event)>9</button></div>
+                <div class="button_container--10"><button class="calculator__botoes--10  btn btn-primary" value="+"  onclick="mapClick(value)" onkeydown=mapKey(event)>+</button></div>
+                <div class="button_container--11"><button class="calculator__botoes--11  btn btn-dark" value="."  onclick="mapClick(value)" onkeydown=mapKey(event)>.</button></div>
+                <div class="button_container--12"><button class="calculator__botoes--12  btn btn-primary" value="-"  onclick="mapClick(value)" onkeydown=mapKey(event)>-</button></div>
+                <div class="button_container--13"><button class="calculator__botoes--13  btn btn-success" value="="  onclick="mapClick(value)" onkeydown=mapKey(event)>=</button></div>
+                <div class="button_container--14"><button class="calculator__botoes--14  btn btn-primary" value="*"  onclick="mapClick(value)" onkeydown=mapKey(event)>*</button></div>
+                <div class="button_container--15"><button class="calculator__botoes--15  btn btn-primary" value="/"  onclick="mapClick(value)" onkeydown=mapKey(event)>÷</button></div>
             </div>
     </div>
     </main>
@@ -40,5 +42,6 @@
     <footer class="footer">
         Designed by: Ruan Castro 
     </footer>
+    <script src="app.js"></script>
 </body>
 </html>
