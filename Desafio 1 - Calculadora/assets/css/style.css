@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .calculator__monitor{
@@ -57,13 +58,13 @@ body{
 .grid{
     background-color: rgba(73,164,181,0.6);
     display: grid;
-    /* grid-gap: .1rem; */
+    /* grid-auto-rows: minmax(100px, 300px); */
     grid-template-columns:  auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
     height: calc(80vh - 8rem);
     justify-content: space-evenly;
-    margin:2rem;
-    padding: 1rem;
+    margin:0 auto;
+    padding: 2.5rem;
     width: 100%;
 }
 

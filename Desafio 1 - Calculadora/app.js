@@ -1,10 +1,11 @@
 let calc = []
-showMonitor = () => {
+showMonitor = (op) => {
     document.querySelector('.calculator__monitor').innerHTML = ' '
 
     for(let i =  0; i<calc.length;i++){
-        document.querySelector('.calculator__monitor').innerHTML += calc[i]
+        document.querySelector('.calculator__monitor').innerHTML += op[i]
     }
+
 }
 
 mapClick = (button) =>{   
@@ -35,9 +36,7 @@ mapClick = (button) =>{
 
 
 mapKey = (e) => {
-
-    console.log("EVENTO: ",e)
-
+    
 for(let i = 0;i<=9;i++){
     switch(e.key) {
         case `${i}`:
@@ -64,30 +63,38 @@ switch(e.key) {
     case `Backspace`:
         calc.pop()
             break
+    
+    case `.`:
+        calc.push('.')
+            break            
 
     case `=`:
         solve(calc)
+
         break
+
+    // case `Enter`:
+    //     solve(calc)
+    //     break
 }
 
     showMonitor(calc)
-
-    console.log(e)
-    console.log(calc)
-    
 }
 
 
 solve = (list) => {
     let eq = list.join('')
     res = eval(eq)
+     calc = [res]
+    
+     if(isFloat(calc)){
+        calc = calc[0].toFixed(2)
+    }
+    showMonitor(calc)
 
-    calc = [eq,'=',res]
-    showMonitor()
 }
 
-showRes = (res) =>{
-    document.querySelector('.calculator__monitor').innerHTML += res
-    console.log(res)
+function isFloat(n){
+    return Number(n[0]) === n[0]&& n[0] % 1 !== 0;
 }
 
