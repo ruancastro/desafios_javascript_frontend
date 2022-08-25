@@ -85,10 +85,10 @@ switch(e.key) {
 solve = (list) => {
     let eq = list.join('')
     res = eval(eq)
-     calc = [res]
-    
+    calc = [res]
+
      if(isFloat(calc)){
-        calc = calc[0].toFixed(2)
+        calc[0] = calc[0].toFixed(2)
     }
     showMonitor(calc)
 
