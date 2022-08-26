@@ -33,10 +33,10 @@
         <h2 class="cabecalho__title--2">GUESSING GAME</h2>
         <nav class="menu">
             <ul class="menu__lista ">
-                <button class="menu__botao generate"><li class="menu_itens">New Colors</li></button>
-                <button class="menu__botao easy"><li class="menu_itens">Easy</li></button>
-                <button class="menu__botao medium"><li class="menu_itens">Medium</li></button>
-                <button class="menu__botao hard"><li class="menu_itens">Hard</li></button>        
+                <button class="menu__botao generate" onclick="Randomize_monitor()"><li class="menu_itens">New Colors</li></button>
+                <button class="menu__botao" value="easy" onclick="get_level(value)"><li class="menu_itens">Easy</li></button>
+                <button class="menu__botao"  value="medium" onclick="get_level(value)"><li class="menu_itens">Medium</li></button>
+                <button class="menu__botao" value="hard" onclick="get_level(value)"><li class="menu_itens">Hard</li></button>        
             </ul>
         </nav>
     </header>
@@ -44,7 +44,7 @@
     <main class="main container">
         <div class="main__container">
             <ul class="listaDeCores">
-                <li class="containerDaCor cor__1">rgb(255,255,255)</li>
+                <li class="containerDaCor cor__1 ">rgb(255,255,255)</li>
                 <li class="containerDaCor cor__2">rgb(255,255,255)</li>
                 <li class="containerDaCor cor__3">rgb(255,255,255)</li>
                 <li class="containerDaCor cor__4">rgb(255,255,255)</li>
