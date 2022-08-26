@@ -1,0 +1,36 @@
+.menu__botao{
+    color: rgb(38,130,141);
+    font-weight: 600;
+    border:none;
+    background-color: #fdfbfb;
+    height: 2rem;
+}
+
+
+.menu__botao:nth-child(1){
+    margin-left: 5rem;
+}
+
+.menu__botao:nth-child(2){
+    margin-left: 50%
+}
+
+.menu__botao:nth-child(2):focus, .menu__botao:nth-child(3):focus, .menu__botao:nth-child(4):focus{
+    background-color: rgb(38,130,141);
+    color:  #fdfbfb;
+}
+
+
+.menu__botao:nth-child(3){
+    margin-left: 3rem;
+}
+
+
+.menu__botao:nth-child(4){
+    margin-left: 3rem;
+}
+
+.menu__botao:hover {
+    background-color: rgb(38,130,141);
+    color:  #fdfbfb;
+}

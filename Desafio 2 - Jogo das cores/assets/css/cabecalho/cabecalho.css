@@ -1,0 +1,18 @@
+.cabecalho{
+    background-color: rgb(38,130,141);
+    color: #fdfbfb;
+    text-align: center;
+ 
+ }
+ 
+ .cabecalho__title--1,.cabecalho__title--2{
+     font-size: 2rem;
+     padding: .5rem;
+ }
+ 
+ 
+ .cabecalho__monitor{
+     font-size: 3.5rem;
+     font-weight: 500;
+     margin: .5rem;
+ }

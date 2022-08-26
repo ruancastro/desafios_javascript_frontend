@@ -1,0 +1,11 @@
+.menu{
+    background-color: #fdfbfb;
+    height: 2rem;
+}
+
+.menu__lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}

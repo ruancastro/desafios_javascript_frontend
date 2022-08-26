@@ -1,0 +1,56 @@
+.main{
+    background-color: #1f1f1f;
+}
+
+.main__container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 280px);
+}
+
+.listaDeCores{
+    color: #1f1f1f;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+
+    row-gap: 3rem;
+    column-gap: 3rem;
+
+}
+
+.containerDaCor{
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    
+}
+
+.cor__1{
+    background-color: blue;
+}
+
+.cor__2{
+    background-color: red;
+}
+
+.cor__3{
+    background-color: aqua;
+}
+
+.cor__4{
+    background-color: yellow;
+}
+
+.cor__5{
+    background-color: purple;
+}
+
+.cor__6{
+    background-color: peru;
+}
