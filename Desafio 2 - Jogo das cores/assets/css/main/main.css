@@ -24,33 +24,33 @@
     align-items: center;
     border-radius: 20px;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.25rem;
     justify-content: center;
     width: 10rem;
     height: 10rem;
     
 }
 
-.cor__1{
+.cor__0{
     background-color: blue;
 }
 
-.cor__2{
+.cor__1{
     background-color: red;
 }
 
-.cor__3{
+.cor__2{
     background-color: aqua;
 }
 
-.cor__4{
+.cor__3{
     background-color: yellow;
 }
 
-.cor__5{
+.cor__4{
     background-color: purple;
 }
 
-.cor__6{
+.cor__5{
     background-color: peru;
 }
