@@ -31,7 +31,7 @@
         <h2 class="cabecalho__title--1">The Great</h2>
         <h1 class="cabecalho__monitor">RGB(172,4,205)</h1>
         <h2 class="cabecalho__title--2">GUESSING GAME</h2>
-        <nav class="menu">
+        <nav class="menu ">
             <ul class="menu__lista ">
                 <button class="menu__botao generate" onclick="Randomize_colors()"><li class="menu_itens">New Colors</li></button>
                 <button class="menu__botao" value="easy" onclick="get_level(value)"><li class="menu_itens">Easy</li></button>
@@ -44,16 +44,20 @@
     <main class="main container">
         <div class="main__container">
             <ul class="listaDeCores">
-                <li class="containerDaCor cor__0"  value = "0" onclick="guess(value)">rgb(255,255,255)</li>
-                <li class="containerDaCor cor__1"  value = "1" onclick="guess(value)">rgb(255,255,255)</li>
-                <li class="containerDaCor cor__2"  value = "2" onclick="guess(value)">rgb(255,255,255)</li>
-                <li class="containerDaCor cor__3"  value = "3" onclick="guess(value)">rgb(255,255,255)</li>
-                <li class="containerDaCor cor__4"  value = "4" onclick="guess(value)">rgb(255,255,255)</li>
-                <li class="containerDaCor cor__5"  value = "5" onclick="guess(value)">rgb(255,255,255)</li>
+                <li class="containerDaCor cor__0"  value = "0" onclick="guess(value)"></li>
+                <li class="containerDaCor cor__1"  value = "1" onclick="guess(value)"></li>
+                <li class="containerDaCor cor__2"  value = "2" onclick="guess(value)"></li>
+                <li class="containerDaCor cor__3"  value = "3" onclick="guess(value)"></li>
+                <li class="containerDaCor cor__4"  value = "4" onclick="guess(value)"></li>
+                <li class="containerDaCor cor__5"  value = "5" onclick="guess(value)"></li>
             </ul>
 
         </div>
     </main>
+
+    <footer class="footer container">
+        Develeoped by: Ruan Castro 
+    </footer>
 
     
     <script src="app.js"></script>

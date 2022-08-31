@@ -1,14 +1,54 @@
+.container{
+    /* margin: 1rem 7rem;
+    border-radius: 12px; */
+}
 
 body{
     background-color: black;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Acme', sans-serif;
 }
 
+.footer{
+    align-items: center;
+    color: rgba(253,253,251,0.6);
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    font-weight: 100;
 
-.container{
-    margin: 1rem 7rem;
-    border-radius: 12px;
+}
+
+@media screen and (min-width: 340px){
+    .container{
+        margin: 0 .5rem;
+        border-radius: 8px;
+    }
+
+    .footer{
+        height: 1rem;
+        font-size: .75rem;
+    }
+}
+
+
+@media screen and (min-width: 778px){
+    .footer{
+        font-size: .8rem;
+    }
+}
+
+@media screen and (min-width: 940px){
+    .container{
+        margin: 1rem 3rem;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .footer{
+        margin-top: 2rem;
+        font-size: .9rem;
+    }
 }
 
 
